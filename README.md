@@ -25,7 +25,7 @@ where *a* is the coefficient of the independent variable *x* and *b* is the inte
 
 Perceptrons, neural networks having a single neuron, have been used as regressors since their invention. Sometimes referred to as [Adaline] models, these perceptrons do not have an activation function. This way, their output is directly considered the regression result for a given input value. Note that the equation expressed by this perceptron, considering its weights and bias, is exactly the same equation described above for simple linear regressors.
 
-In this project, we train a perceptron regressor to model the observed (and plotted) linear correlation between temperature and ice cream revenue. We make sure that all 6 main linear regression assumptions are respected:
+In this project, we train a perceptron regressor to model the observed (and plotted) linear correlation between temperature and ice cream revenue. We make sure that 6 main linear regression assumptions ([out of many linear regression assumptions]) are respected:
 
 1. There is a linear correlation between the independent and the dependent variables;
 2. Multivariate normality, i.e., the set having all variables must follow a multivariate normal distribution;
@@ -48,6 +48,7 @@ In the end, our **perceptron regressor achieves an almost perfect [R2 score] of 
 [Ordinary Least Squares]: <https://www.xlstat.com/en/solutions/features/ordinary-least-squares-regression-ols>
 [Perceptron]: <https://en.wikipedia.org/wiki/Perceptron>
 [Simple linear regression]: <https://www.scribbr.com/statistics/simple-linear-regression/>
+[out of many linear regression assumptions]: <https://towardsdatascience.com/assumptions-of-linear-regression-fdb71ebeaa8b>
 [Mahalanobis distances]: <https://en.wikipedia.org/wiki/Mahalanobis_distance>
 [Q-Q chi-squared probability plot]: <https://search.r-project.org/CRAN/refmans/heplots/html/cqplot.html>
 [Scikit-learn's OLS regressor]: <https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html>
