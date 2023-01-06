@@ -18,9 +18,8 @@ There is a multitude of algorithms able to model the linear correlation between 
 
 Simple linear regressors can be described by the following equation:
 
-$$
-y = ax + b,
-$$
+$$ y = a \cdot x + b $$
+
 where *a* is the coefficient of the independent variable *x* and *b* is the intercept term (or bias).
 
 Perceptrons, neural networks having a single neuron, have been used as regressors since their invention. Sometimes referred to as [Adaline] models, these perceptrons do not have an activation function. This way, their output is directly considered the regression result for a given input value. Note that the equation expressed by this perceptron, considering its weights and bias, is exactly the same equation described above for simple linear regressors.
@@ -43,6 +42,7 @@ In the end, our **perceptron regressor achieves an almost perfect [R2 score] of 
 ![perceptron_regression_ice_cream_revenue_per_temp_test_regression](https://user-images.githubusercontent.com/33037020/210903852-a260dd51-1782-4f40-a834-59d491149654.PNG)
 
 [//]: #
+
 [dataset]: <https://www.kaggle.com/datasets/4c8d766e253c62e5910952e619db9267f34c58497a74001571106b157080ee9b?resource=download>
 [Adaline]: <https://en.wikipedia.org/wiki/ADALINE>
 [Ordinary Least Squares]: <https://www.xlstat.com/en/solutions/features/ordinary-least-squares-regression-ols>
